@@ -4,11 +4,21 @@ import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import './style.css';
 
-const MaxWeight = () =>  {
+const MaxWeight = ({ setMaxWeight}) =>  {
     const [show, setShow] = useState(false);
+    const [max, setMax] = useState(0);
   
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
+
+    function onChangeMaxWeight(ev) {
+      const { value } = ev.target;
+      setMax(value);
+    }
+
+    const addMaxWeight = () => {
+      setMaxWeight(max);
+    }
   
     return (
       <div>
@@ -28,6 +38,8 @@ const MaxWeight = () =>  {
                   type="number"
                   placeholder="Carga Máxima"
                   autoFocus
+                  value={max}
+                  onChange={onChangeMaxWeight}
                 />
               </Form.Group>
             </Form>
@@ -36,7 +48,7 @@ const MaxWeight = () =>  {
             <Button variant="secondary" onClick={handleClose}>
               Cancelar
             </Button>
-            <Button variant="primary" onClick={handleClose}>
+            <Button variant="primary" onClick={() => {addMaxWeight(); handleClose()}}>
               Confirmar
             </Button>
           </Modal.Footer>
