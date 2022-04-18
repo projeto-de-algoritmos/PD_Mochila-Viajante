@@ -19,9 +19,25 @@ code {
   margin-top: 5vw;
 }
 
+.first{
+  margin-bottom: 5%;
+  padding-top: 5%;
+}
 
 .title{
-  font-size: 34px;
+  font-size: 25px;
   font-family: Helvetica;
   font-weight: 750;
+  color: #636060;
+}
+
+.subtitle{
+  font-size: 14px;
+  margin-top: 50px;
+  font-family: Helvetica;
+  color: white;
+  background-color: #f90355;
+  border-radius: 20px;
+  padding: 2%;
+  font-weight: 700;
 }
