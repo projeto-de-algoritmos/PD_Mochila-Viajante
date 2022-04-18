@@ -1,45 +1,56 @@
-**!! Atenção: Renomeie o seu repositório para (Tema)_(NomeDoProjeto). !!** 
+# Rico Truck
 
-Temas:
- - Grafos1
- - Grafos2
- - PD
- - D&C
- - Greed
- - Final 
- 
- **!! *Não coloque os nomes dos alunos no título do repositório*. Exemplo de título correto: Grafos2_Labirinto-do-Minotauro !!**
- 
- (Apague essa seção)
-
-# NomedoProjeto
-
-**Número da Lista**: X<br>
-**Conteúdo da Disciplina**: XXXXXXXXXX<br>
+**Número da Lista**: 21<br>
+**Conteúdo da Disciplina**: Programação Dinâmica<br>
 
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 18/0123203  |  João Pedro Alves da Silva Chaves |
+| 19/0026243  |  Dafne Moretti Moreira |
 
 ## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
+O Rico Truck é um site que tem como objetivo ajudar os seus usuários a descobrir a combinação de itens para serem transportados que tenha maior valor, para isso é utilizado o algoritmo de Knapsack ajustado com técnica de programação dinâmica.
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+
+Ao acessar o site, é possível visualizar a seguinte tela. Basta rolar para baixo para ter acesso a mais informações.
+![Homepage](/src/img/img1.png)
+
+Após a rolagem é possível adicionar a carga máxima que é possível ser transportada pelo caminhão.
+![CargaMaxima](/src/img/img2.png)
+
+Ao clicar em Adicionar Item é possível inserir o nome, valor e peso do item que será listado na tela.
+![AdicionarItem](/src/img/img3.png)
+
+Ao clicar em Calcular é apresentado o resultado com o maior valor possível de ser transportado.
+![Resultado](/src/img/img4.png)
 
 ## Instalação 
-**Linguagem**: xxxxxx<br>
-**Framework**: (caso exista)<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+**Linguagem**: JavaScript<br>
+**Framework**: ReactJS<br>
+
+#### Clone o repositório
+
+#### Caso esteja rodando o projeto pela primeira vez, utilize a seguinte sequência de comandos
+
+```npm install```
+
+```npm start```
+
+
+Após realizar esses passos, o site estará rodando na porta 3000.
 
 ## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
+ 
+#### Caso já tenha rodado o projeto alguma vez, basta utilizar o comando
 
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
+```npm start```
 
+Após realizar esses passos, o site estará rodando na porta 3000.
 
+## Apresentação 
+
+Link para apresentação:
 
 
